@@ -18,12 +18,16 @@ public:
     MainWindow(QWidget *parent = nullptr);
     ~MainWindow();
 
+protected:
+    void openPreferences();
+
 private:
     Ui::MainWindow *ui;
     ads::CDockManager* DockManager;
 
     QMenu *fileMenu;
     QMenu *viewMenu;
+    QMenu *toolsMenu;
     QMenu *helpMenu;
 };
 #endif // MAINWINDOW_H

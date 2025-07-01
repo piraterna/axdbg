@@ -13,6 +13,7 @@ qt_add_executable(AxDbg
     widgets/mainwindow.cpp widgets/mainwindow.h widgets/ui/mainwindow.ui
     widgets/logswidget.h widgets/logswidget.cpp widgets/ui/logswidget.ui
     widgets/commandswidget.h widgets/commandswidget.cpp widgets/ui/commandswidget.ui
+    widgets/preferencesdialog.h widgets/preferencesdialog.cpp widgets/ui/preferencesdialog.ui
 )
 
 qt_add_translations(AxDbg TS_FILES translation/cs_CZ.ts)

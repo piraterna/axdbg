@@ -7,6 +7,11 @@
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
+    QApplication::setApplicationName("AxDbg");
+    QApplication::setApplicationDisplayName("Aurix Debugger");
+    QApplication::setApplicationVersion("0.1");
+    QApplication::setOrganizationName("Jozef Nagy");
+    QApplication::setOrganizationDomain("www.aurix.github.io");
 
     QTranslator translator;
     const QStringList uiLanguages = QLocale::system().uiLanguages();

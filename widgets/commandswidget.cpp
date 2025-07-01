@@ -15,6 +15,6 @@ CommandsWidget::~CommandsWidget()
 
 void CommandsWidget::on_sendButton_clicked()
 {
-    QString cmd = ui->commandLine->text();
+    std::string cmd = ui->commandLine->text().toStdString();
     (void)cmd;
 }

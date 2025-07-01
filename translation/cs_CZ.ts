@@ -20,6 +20,14 @@
         <translation>Zobrazit</translation>
     </message>
     <message>
+        <source>Tools</source>
+        <translation>Nástroje</translation>
+    </message>
+    <message>
+        <source>Preferences</source>
+        <translation>Nastavení</translation>
+    </message>
+    <message>
         <source>Help</source>
         <translation>Nápověda</translation>
     </message>
@@ -41,6 +49,37 @@
     <message>
         <source>Send</source>
         <translation>Odeslat</translation>
+    </message>
+
+    <!-- Preferences -->
+    <name>PreferencesDialog</name>
+    <message>
+        <source>Preferences</source>
+        <translation>Nastavení</translation>
+    </message>
+    <message>
+        <source>General</source>
+        <translation>Obecné</translation>
+    </message>
+    <message>
+        <source>Connection</source>
+        <translation>Připojení</translation>
+    </message>
+    <message>
+        <source>Language</source>
+        <translation>Jazyk</translation>
+    </message>
+    <message>
+        <source>Theme</source>
+        <translation>Vzhled</translation>
+    </message>
+    <message>
+        <source>Debug Pipe</source>
+        <translation>Debug Pipe</translation>
+    </message>
+    <message>
+        <source>Serial Pipe</source>
+        <translation>Serial Pipe</translation>
     </message>
 </context>
 </TS>
