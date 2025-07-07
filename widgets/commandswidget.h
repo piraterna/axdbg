@@ -20,6 +20,9 @@ private slots:
 
 private:
     Ui::CommandsWidget *ui;
+
+protected:
+    void changeEvent(QEvent* event) override;
 };
 
 #endif // COMMANDSWIDGET_H

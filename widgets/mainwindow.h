@@ -19,7 +19,7 @@ public:
     ~MainWindow();
 
 protected:
-    void openPreferences();
+    void changeEvent(QEvent* event) override;
 
 private:
     Ui::MainWindow *ui;
@@ -29,5 +29,7 @@ private:
     QMenu *viewMenu;
     QMenu *toolsMenu;
     QMenu *helpMenu;
+
+    void openPreferences();
 };
 #endif // MAINWINDOW_H

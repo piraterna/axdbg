@@ -4,6 +4,10 @@
 <context>
     <name>MainWindow</name>
     <message>
+        <source>Aurix Debugger</source>
+        <translation>Ladící nástroj Aurix</translation>
+    </message>
+    <message>
         <source>About</source>
         <translation>O aplikaci</translation>
     </message>
@@ -47,8 +51,19 @@
     <!-- Commands -->
     <name>CommandsWidget</name>
     <message>
+        <source>Commands</source>
+        <translation>Příkazový řádek</translation>
+    </message>
+    <message>
         <source>Send</source>
         <translation>Odeslat</translation>
+    </message>
+
+    <!-- Logs -->
+    <name>LogsWidget</name>
+    <message>
+        <source>Logs</source>
+        <translation>Záznamy</translation>
     </message>
 
     <!-- Preferences -->

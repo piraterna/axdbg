@@ -4,6 +4,10 @@
 <context>
     <name>MainWindow</name>
     <message>
+        <source>Aurix Debugger</source>
+        <translation>Aurix Debugger</translation>
+    </message>
+    <message>
         <source>About</source>
         <translation>About</translation>
     </message>
@@ -47,8 +51,19 @@
     <!-- Commands -->
     <name>CommandsWidget</name>
     <message>
+        <source>Commands</source>
+        <translation>Commands</translation>
+    </message>
+    <message>
         <source>Send</source>
         <translation>Send</translation>
+    </message>
+
+    <!-- Logs -->
+    <name>LogsWidget</name>
+    <message>
+        <source>Logs</source>
+        <translation>Logs</translation>
     </message>
 
     <!-- Preferences -->

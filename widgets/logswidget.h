@@ -17,6 +17,9 @@ public:
 
 private:
     Ui::LogsWidget *ui;
+
+protected:
+    void changeEvent(QEvent* event) override;
 };
 
 #endif // LOGSWIDGET_H

@@ -20,6 +20,10 @@ private slots:
 
     void on_okButton_clicked();
 
+    void on_themeCombo_currentIndexChanged(int index);
+
+    void on_languageCombo_currentIndexChanged(int index);
+
 private:
     Ui::PreferencesDialog *ui;
 };

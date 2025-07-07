@@ -12,7 +12,7 @@ MainWindow::MainWindow(QWidget *parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-    this->setWindowTitle("Aurix Debugger");
+    this->setWindowTitle(tr("Aurix Debugger"));
 
     DockManager = new ads::CDockManager(this);
 
@@ -68,9 +68,19 @@ void MainWindow::openPreferences()
     PreferencesDialog *pref = new PreferencesDialog();
     pref->exec();
     delete pref;
+    ui->retranslateUi(this);
 }
 
 MainWindow::~MainWindow()
 {
     delete ui;
+}
+
+void MainWindow::changeEvent(QEvent* event)
+{
+    if (event->type() == QEvent::LanguageChange) {
+        ui->retranslateUi(this);
+    }
+
+    QMainWindow::changeEvent(event);
 }
